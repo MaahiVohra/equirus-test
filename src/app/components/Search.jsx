@@ -3,7 +3,8 @@ import Image from 'next/image'
 import "./Search.css"
 import { useState } from 'react'
 import UserCard from './UserCard'
-export default function Navbar() {
+import { IoSearchOutline } from "react-icons/io5";
+export default function Search() {
     const [inputValue, setInputValue] = useState()
     const [selectedUser, setSelectedUser] = useState()
     const users = [
@@ -43,6 +44,7 @@ export default function Navbar() {
     return (
         <div className="search-wrapper">
             <div className='search'>
+                <div></div>
                 <input type="text" placeholder='Search' value={inputValue} onChange={(e) => setInputValue(e.currentTarget.value)} />
                 <div className='search-content'>
                     <div className='search-recent'>
