@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 5rem;
+    cursor: pointer;
+}
+
+nav div {
+    cursor: pointer;
+}

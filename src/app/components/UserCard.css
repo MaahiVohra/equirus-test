@@ -1,0 +1,41 @@
+.user-profile-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-details {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.user-profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.user-profile-card .button {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    background-color: #5046E4;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.user-profile-card button:hover {
+    background-color: #4a40d3;
+}
