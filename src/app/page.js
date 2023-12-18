@@ -5,6 +5,7 @@ import Search from './components/Search'
 export default function Home() {
   return (
     <main>
+      <div className='diagonal-section'></div>
       <Navbar />
       <Search />
     </main>
